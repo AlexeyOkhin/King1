@@ -197,7 +197,7 @@ func prn_birge (long year)
   if (fl_kar) printf ("         Караван прибудет через: %s.", incline_words ("", "", 5-fl_kar, "ход", "хода", "ходов"));
 }
 
-void torgovla_helper (char *s1, char *s2, char *s3, long cur_pr, long *cur_item)
+func torgovla_helper (char *s1, char *s2, char *s3, long cur_pr, long *cur_item)
 {
   long n;
   long cur;
